@@ -29,6 +29,11 @@ a{
     background-color: var(--white-color);
 }
 
+.main-paige{
+    color: var(--selection-color);
+
+}
+
 /* логотип */
 .logo{
     color: #000000;
