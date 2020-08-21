@@ -1,0 +1,192 @@
+:root{
+    --header-color: #212121;
+    --paragraph-color: #757575;
+    --main-background: #E5E5E5;
+    --sections-background: #2F303A;
+    --selection-color: #2196F3;
+    --white-color: #ffffff;
+}
+
+body{
+    background-color: var(--main-background);
+    color: var(--headen-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* навигация в head */
+
+.navigation{
+    background-color: var(--white-color);
+}
+.logo{
+    color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+.logo span{
+    color: var(--selection-color);
+}
+
+.logo .foot-color{
+    color: var(--white-color);
+}
+
+
+ul a{
+    color:inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+ul a:hover,
+ul a:focus{
+    color: var(--selection-color);
+}
+
+.nav-adress-link{
+    color: var(--paragraph-color);
+}
+
+/* hero */
+.hero{
+    background-color: var(--sections-background);
+    }
+.hero-title{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero button{
+    background-color: var(--selection-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* блок с описанием преимуществ */
+
+.advantages-list h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages-list p{
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* остальный заголовки страницы */
+.content-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* секция о команде */
+.command-content{
+    background-color: #F5F4FA;
+}
+
+.command-content h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.command-content p{
+    color:var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* футер */
+.foot-section{
+    background-color: var(--sections-background);
+}
+
+.foot-section address{
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 14px;
+    font-style:var(--selection-color);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.foot-section a{
+    color:rgba(255, 255, 255, 0.6);
+
+}
+
+/* portfolio page */
+.projects h1{
+    display: none;
+}
+
+.projects button{
+    background: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.projects button:hover,
+.projects button:focus{
+    background-color: var(--selection-color);
+    color: var(--white-color);
+}
+
+.projects-list h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-list p{
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
